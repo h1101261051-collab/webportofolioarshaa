@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arsha Arkana Dzakwan – Portofolio Mahasiswa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+
+<!-- Status bar ala ponsel -->
+<header class="topbar">
+  <nav class="nav" aria-label="Menu utama">
+    <a href="#beranda">Beranda</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#pendidikan">Pendidikan</a>
+    <a href="#skill">Skill</a>
+    <a href="#pengalaman">Pengalaman</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <!-- HERO -->
+  <section id="beranda" class="tile hero">
+    <div class="avatar" role="img" aria-label="Foto profil Arsha">
+      <img src="foto1.jpeg" alt="Foto profil Arsha" onerror="var e=['jpg','png','webp','JPG','JPEG','PNG'],i=+(this.dataset.i||0);if(i<e.length){this.dataset.i=i+1;this.src=this.src.replace(/\.\w+$/,'.'+e[i])}">
+    </div>
+    <div class="hero-text">
+      <p class="hi">Halo, Selamat Datang!</p>
+      <h1>Arsha Arkana<br>Dzakwan Ganteng</h1>
+      <p class="typing">Belajar, berkarya, dan berbagi.</p>
+      <p class="lead">Mahasiswa Sistem Informasi, FMIPA, Universitas Tanjungpura, Pontianak. Saya sedang belajar membangun sistem & aplikasi yang berguna bagi orang banyak.</p>
+      <div class="chips">
+        <span class="chip">NIM H1101261051</span>
+        <span class="chip">Pontianak, Kalimantan Barat</span>
+        <span class="chip live"><i></i>Mahasiswa aktif</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATISTIK SINGKAT -->
+  <section class="stats" aria-label="Ringkasan">
+    <div class="tile stat"><b>Sistem Informasi</b><span>Program studi</span></div>
+    <div class="tile stat"><b>MIPA</b><span>Fakultas</span></div>
+    <div class="tile stat"><b>Tanjungpura</b><span>Universitas</span></div>
+    <div class="tile stat"><b>Python</b><span>Bahasa yang dipelajari</span></div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker" aria-hidden="true"><div class="track"><span>Sistem Informasi</span><span>MIPA</span><span>Universitas Tanjungpura</span><span>Presentasi</span><span>HTML &amp; CSS</span><span>Kerja Tim</span><span>Mahasiswa Baru</span><span>Pontianak</span><span>Sistem Informasi</span><span>Python</span><span>Universitas Tanjungpura</span><span>Presentasi</span><span>HTML &amp; CSS</span><span>Kerja Tim</span><span>Mahasiswa Baru</span><span>Pontianak</span></div></div>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="tile about">
+    <h2>Perkenalan diri</h2>
+    <p>Saya Arsha, mahasiswa baru Sistem Informasi di Universitas Tanjungpura. Saya tertarik pada cara teknologi membantu pekerjaan sehari-hari, mulai dari logika pemrograman sampai tampilan aplikasi.</p>
+    <p>Website ini saya buat untuk memperkenalkan diri kepada teman-teman mahasiswa baru: siapa saya, apa yang sedang saya pelajari, dan apa yang sudah saya kerjakan.</p>
+    <dl class="facts">
+      <div><dt>Nama lengkap</dt><dd>Arsha Arkana Dzakwan</dd></div>
+      <div><dt>Asal</dt><dd>Kapuas Hulu, Putussibau</dd></div>
+      <div><dt>Tanggal lahir</dt><dd>11 Oktober 2007</dd></div>
+      <div><dt>Hobi</dt><dd>Senang, Bahagia, Anti Susah</dd></div>
+    </dl>
+  </section>
+
+  <!-- PENDIDIKAN -->
+  <section id="pendidikan" class="tile edu">
+    <h2>Riwayat pendidikan</h2>
+    <ol class="timeline">
+      <li>
+        <time>2026 – sekarang</time>
+        <h3>S1 Sistem Informasi, FMIPA</h3>
+        <p>Universitas Tanjungpura, Pontianak Kota, Kalimantan Barat.</p>
+      </li>
+      <li>
+        <time>[2023 – 2026]</time>
+        <h3>MAN 1 Kapuas Hulu</h3>
+        <p>Jln. Abdurahman No.10, Kecamatan Putussibau Utara, Kabupaten Kapuas Hulu, Kalimantan Barat.</p>
+      </li>
+      <li>
+        <time>[2020 – 2023]</time>
+        <h3>Pondok Pesantren Darunna'im </h3>
+        <p>Jln. Ampera, Sungai Jawi, Kecamatan Pontianak Kota, Kalimantan Barat.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- SKILL -->
+  <section id="skill" class="tile skills">
+    <h2>Skill yang saya miliki</h2>
+    <ul class="bars">
+      <li style="--v:100%;--d:.1s"><span>Python dasar (list, fungsi)</span><em></em></li>
+      <li style="--v:100%;--d:.25s"><span>Presentasi dan PowerPoint</span><em></em></li>
+      <li style="--v:100%;--d:.4s"><span>Menulis laporan praktikum</span><em></em></li>
+      <li style="--v:100%;--d:.55s"><span>Kerja sama tim</span><em></em></li>
+      <li style="--v:100%;--d:.7s"><span>HTML dan CSS</span><em></em></li>
+      <li style="--v:100%;--d:.85s"><span>Microsoft Office</span><em></em></li>
+    </ul>
+    <p class="note">Angka hanya perkiraan pribadi.</p>
+  </section>
+
+  <!-- PENGALAMAN -->
+  <section id="pengalaman" class="tile exp">
+    <h2>Pengalaman dan kegiatan</h2>
+    <div class="cards">
+      <article>
+        <h3>Laporan praktikum Python</h3>
+        <p>Menyusun laporan mingguan Algoritma dan Pemrograman, termasuk materi List dan Fungsi.</p>
+      </article>
+      <article>
+        <h3>Presentasi kelompok "Behind the App"</h3>
+        <p>Membuat PPT bersama tim untuk mata kuliah Pengantar Teknologi dan Sistem Informasi.</p>
+      </article>
+      <article>
+        <h3>Organisasi sekolah</h3>
+        <p>Banyak, jadi orang sibuk.</p>
+      </article>
+      <article>
+        <h3>Lomba dan penghargaan</h3>
+        <p>Kebanyakan, Tidak bisa dituliskan satu-persatu.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- GALERI -->
+  <section class="tile gallery">
+    <h2>Galeri</h2>
+    <div class="shots">
+      <figure><img src="foto2.jpeg" alt="Foto 2" loading="lazy" onerror="var e=['jpg','png','webp','JPG','JPEG','PNG'],i=+(this.dataset.i||0);if(i<e.length){this.dataset.i=i+1;this.src=this.src.replace(/\.\w+$/,'.'+e[i])}"></figure>
+      <figure><img src="foto3.jpeg" alt="Foto 3" loading="lazy" onerror="var e=['jpg','png','webp','JPG','JPEG','PNG'],i=+(this.dataset.i||0);if(i<e.length){this.dataset.i=i+1;this.src=this.src.replace(/\.\w+$/,'.'+e[i])}"></figure>
+      <figure><img src="foto4.jpeg" alt="Foto 4" loading="lazy" onerror="var e=['jpg','png','webp','JPG','JPEG','PNG'],i=+(this.dataset.i||0);if(i<e.length){this.dataset.i=i+1;this.src=this.src.replace(/\.\w+$/,'.'+e[i])}"></figure>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="kontak" class="tile contact">
+    <h2>Mari berteman</h2>
+    <p>Kamu mahasiswa baru Untan? Sapa saya lewat salah satu kontak ini.</p>
+    <div class="links">
+      <a href="mailto:arshaaarkana@gmail.com">Email</a>
+      <a href="https://instagram.com/djackwan_">Instagram</a>
+      <a href="https://wa.me/085828321906">WhatsApp</a>
+      <a href="https://github.com/h1101261051-collab">GitHub</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="dock">Tetap belajar, tetap berkarya.</footer>
+
+<!-- PEMUTAR MUSIK -->
+<div class="player" id="player" aria-label="Pemutar musik">
+  <div class="disc" aria-hidden="true"></div>
+  <div class="meta"><b>Sempurnya Aku</b><span>NPD</span></div>
+  <div class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <button class="pbtn" id="pbtn" type="button" aria-label="Putar musik">&#9654;</button>
+  <div class="pbar" aria-hidden="true"><i></i></div>
+  <audio id="lagu" preload="auto">
+    <source src="sempurnya-aku.mp3" type="audio/mpeg">
+    <source src="sempurnya-aku.m4a" type="audio/mp4">
+    <source src="sempurnya-aku.ogg" type="audio/ogg">
+    <source src="sempurnya-aku.wav" type="audio/wav">
+    <source src="sempurnya-aku.mpeg" type="audio/mpeg">
+  </audio>
+</div>
+<script>
+(function(){
+  /* Detik mulai lagu. 0 = mulai dari awal file (file kamu sudah berupa potongan).
+     Kalau ingin mulai di tengah: 1:05 = 65, 0:48 = 48 */
+  var START = 0;
+
+  var a=document.getElementById('lagu'), b=document.getElementById('pbtn'), p=document.getElementById('player');
+  function seek(){ try{ if(a.currentTime<START) a.currentTime=START; }catch(e){} }
+  function play(){ seek(); var r=a.play(); if(r&&r.catch) r.catch(function(){}); }
+
+  b.addEventListener('click',function(){ if(a.paused){play();}else{a.pause();} });
+  a.addEventListener('loadedmetadata',seek);
+  a.addEventListener('play',function(){ p.classList.add('on'); b.innerHTML='&#10074;&#10074;'; b.setAttribute('aria-label','Jeda musik'); });
+  a.addEventListener('pause',function(){ p.classList.remove('on'); b.innerHTML='&#9654;'; b.setAttribute('aria-label','Putar musik'); });
+  a.addEventListener('timeupdate',function(){ if(a.duration){ p.style.setProperty('--p',((a.currentTime-START)/(a.duration-START)*100)+'%'); } });
+  a.addEventListener('ended',function(){ a.currentTime=START; play(); });
+
+  var s=a.querySelectorAll('source');
+  s[s.length-1].addEventListener('error',function(){
+    p.classList.add('kosong'); b.disabled=true;
+    p.querySelector('.meta span').textContent='File lagu sempurnya-aku.mp3 belum ada';
+  });
+
+  /* Browser melarang putar otomatis, jadi lagu mulai pada sentuhan/klik pertama */
+  function first(e){
+    document.removeEventListener('pointerdown',first);
+    if(p.contains(e.target)) return;
+    if(a.paused) play();
+  }
+  document.addEventListener('pointerdown',first);
+})();
+</script>
+
+</body>
+</html>
